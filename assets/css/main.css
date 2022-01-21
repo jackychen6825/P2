@@ -2866,6 +2866,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		margin: 0 0 3em 0;
 		padding: 0;
@@ -2878,7 +2879,7 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			padding: 1.5em;
+			padding: .5em;
 			color: #ffffff;
 			text-align: center;
 		}
